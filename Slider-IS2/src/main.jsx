@@ -1,0 +1,11 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './Styles/index.css'
+import App from './Models/App.jsx'
+import Slider from './Models/Slider.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+      <App />
+  </StrictMode>
+)

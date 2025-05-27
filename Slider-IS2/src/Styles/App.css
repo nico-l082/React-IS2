@@ -1,0 +1,47 @@
+label {
+  color: #EA8512;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+/* Centra todo el contenido principal */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+  background-color: #1e1e1e; /* Fondo oscuro como en tu imagen */
+}
+
+/* Estilo del formulario */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centramos los inputs */
+  padding: 30px;
+  border-radius: 15px;
+  gap: 15px;
+  min-width: 350px; /* más ancho */
+  box-shadow: 0 0 15px #444444;
+  background-color: #2b2b2b;
+}
+
+/* Inputs centrados con buen estilo */
+.loginForm input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Slider alineado a la izquierda del formulario */
+.sliderContainer {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
